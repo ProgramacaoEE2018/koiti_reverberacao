@@ -26,11 +26,13 @@ O fluxograma utilizado como base para a interface foi o seguinte:
 
 ![fluxo](fluxograma_reverberacao.jpg)
 
-Assim, com as ferramente apreendidas no tutorial, foi possível montar a interface não funcional do programa.
+Assim, com as ferramentas apreendidas no tutorial, foi possível montar a interface não funcional do programa.
 
 ![interface](reverberacao_UI.jpg)
 
 A interface possui somente 4 pushbuttons. Esses pushbuttons terão a função de pedir ao usuário o arquivo da amostra de impulso e o arquivo a ser filtrado, outro para iniciar a simulação e outro para salvar o arquivo sonoro obtido.
+
+Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma simulação, o gráfico do arquivo é plotado.
 
 Fernando Koiti Tsurukawa
 
