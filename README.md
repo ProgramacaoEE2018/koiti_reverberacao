@@ -14,11 +14,9 @@ O objetivo do tutorial foi programar uma interface capaz de plotar diferentes da
 
 O resultado final do tutorial pode ser observado nas imagens abaixo:
 
-![tutorial]
-(reverberacao_tutorial.jpg)
+![tutorial](reverberacao_tutorial.jpg)
 
-![tutorial2]
-(reverberacao_tutorial2.jpg)
+![tutorial2](reverberacao_tutorial2.jpg)
 
 Nessas imagens, pode-se observar o APP funcional.
 
