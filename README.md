@@ -18,7 +18,19 @@ O resultado final do tutorial pode ser observado nas imagens abaixo:
 
 ![tutorial2](reverberacao_tutorial2.jpg)
 
-Nessas imagens, pode-se observar o APP funcional.
+Nessas imagens, pode-se observar o APP totalmente funcional, sendo inclusive possível usar as ferramentas Zoom in, Zoom Out, Pan, Rotate e Data Cursor.
+
+**USER INTERFACE**
+
+O fluxograma utilizado como base para a interface foi o seguinte:
+
+![fluxo](reverberacao_fluxograma.jpg)
+
+Assim, com as ferramente apreendidas no tutorial, foi possível montar a interface não funcional do programa.
+
+![interface](receberacao_UI.jpg)
+
+A interface possui somente 4 pushbuttons. Esses pushbuttons terão a função de pedir ao usuário o arquivo da amostra de impulso e o arquivo a ser filtrado, outro para iniciar a simulação e outro para salvar o arquivo sonoro obtido.
 
 Fernando Koiti Tsurukawa
 
