@@ -20,6 +20,8 @@ Nessas imagens, pode-se observar o APP totalmente funcional, sendo inclusive pos
 
 ![interface](imagens/interface.png)
 
+![interface2](imagens/interface2.png)
+
 A interface com 4 pushbuttons: 
 
 (Procurar...) Para que o usuário insira o arquivo WAV em que deseja fazer a simulação.
