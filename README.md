@@ -8,19 +8,13 @@ O tutorial realizado foi o seguinte: [https://www.mathworks.com/videos/creating-
 
 O objetivo do tutorial foi programar uma interface capaz de plotar diferentes dados (peaks, membrane e sinc) de três diferentes maneiras (surf, mesh e contour). Com isso, pôde-se aprender o básico da interface GUIDE do MATLAB.
 
-O resultado final do tutorial pode ser observado nas imagens abaixo:
+O resultado final do tutorial pode ser observado na imagem abaixo:
 
-![tutorial](reverberacao_tutorial.jpg)
-
-![tutorial2](reverberacao_tutorial2.jpg)
+![tutorial](imagens/tutorial.png)
 
 Nessas imagens, pode-se observar o APP totalmente funcional, sendo inclusive possível usar as ferramentas Zoom in, Zoom Out, Pan, Rotate e Data Cursor.
 
 **FLUXOGRAMA (DESATUALIZADO)**
-
-O fluxograma utilizado como base para a interface foi o seguinte:
-
-![fluxo](fluxograma_reverberacao.jpg)
 
 **INTERFACE VISUAL**
 
