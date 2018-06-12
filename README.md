@@ -16,17 +16,25 @@ O resultado final do tutorial pode ser observado nas imagens abaixo:
 
 Nessas imagens, pode-se observar o APP totalmente funcional, sendo inclusive possível usar as ferramentas Zoom in, Zoom Out, Pan, Rotate e Data Cursor.
 
-**USER INTERFACE**
+**FLUXOGRAMA (DESATUALIZADO)**
 
 O fluxograma utilizado como base para a interface foi o seguinte:
 
 ![fluxo](fluxograma_reverberacao.jpg)
 
-Assim, com as ferramentas apreendidas no tutorial, foi possível montar a interface não funcional do programa.
+**INTERFACE VISUAL**
 
-![interface](reverberacao_UI.jpg)
+![interface](interface.png)
 
-A interface possui somente 4 pushbuttons. Esses pushbuttons terão a função de pedir ao usuário o arquivo da amostra de impulso e o arquivo a ser filtrado, outro para iniciar a simulação e outro para salvar o arquivo sonoro obtido.
+A interface com 3 pushbuttons: 
+
+(Procurar...) Para que o usuário insira o arquivo WAV em que deseja fazer a simulação.
+
+(Iniciar) Para que o usuário inicie a simulação.
+
+(Save) Para salvar o arquivo WAV recebido.
+
+Para controlar os parâmetros da simulação, há 3 sliders para controlar os três atributos da classe Reverb.m.
 
 Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma simulação, o gráfico do arquivo é plotado.
 
