@@ -1,10 +1,6 @@
 # koiti_reverberacao
 
-Esse projeto tem como objetivo modelar o fenômeno da reverberação de um sinal acústico. Para isso, partir-se-á da resposta do ambiente a um sinal conhecido, como o impulso, e então será possível encontrar a resposta do ambiente a um som qualquer.
-
-Esse projeto pode utilizar como ferramentas o MATLAB ou até o LABVIEW.
-
-Alternativamente, pode-se utilizar a geometria do ambiente para se modelar a reverberação, contanto que o formato da sala seja simples o suficiente.
+Esse projeto tem como objetivo simular o fenômeno da reverberação de um sinal acústico. Para isso, utilizaremos o MATLAB R2016a. O projeto, no entanto, não se aprofunda na teoria da acústica. Em vez disso, utilizaremos classes e funções prontas da Mathworks.
 
 **EXECUÇÃO DE TUTORIAL**
 
@@ -12,25 +8,31 @@ O tutorial realizado foi o seguinte: [https://www.mathworks.com/videos/creating-
 
 O objetivo do tutorial foi programar uma interface capaz de plotar diferentes dados (peaks, membrane e sinc) de três diferentes maneiras (surf, mesh e contour). Com isso, pôde-se aprender o básico da interface GUIDE do MATLAB.
 
-O resultado final do tutorial pode ser observado nas imagens abaixo:
+O resultado final do tutorial pode ser observado na imagem abaixo:
 
-![tutorial](reverberacao_tutorial.jpg)
-
-![tutorial2](reverberacao_tutorial2.jpg)
+![tutorial](imagens/tutorial.png)
 
 Nessas imagens, pode-se observar o APP totalmente funcional, sendo inclusive possível usar as ferramentas Zoom in, Zoom Out, Pan, Rotate e Data Cursor.
 
-**USER INTERFACE**
+**FLUXOGRAMA (DESATUALIZADO)**
 
-O fluxograma utilizado como base para a interface foi o seguinte:
+**INTERFACE VISUAL**
 
-![fluxo](fluxograma_reverberacao.jpg)
+![interface](imagens/interface.png)
 
-Assim, com as ferramentas apreendidas no tutorial, foi possível montar a interface não funcional do programa.
+![interface2](imagens/interface2.png)
 
-![interface](reverberacao_UI.jpg)
+A interface com 4 pushbuttons: 
 
-A interface possui somente 4 pushbuttons. Esses pushbuttons terão a função de pedir ao usuário o arquivo da amostra de impulso e o arquivo a ser filtrado, outro para iniciar a simulação e outro para salvar o arquivo sonoro obtido.
+(Procurar...) Para que o usuário insira o arquivo WAV em que deseja fazer a simulação.
+
+(Iniciar) Para que o usuário inicie a simulação.
+
+(Save) Para salvar o arquivo WAV produzido.
+
+(Play) Para tocar o áudio produzido.
+
+Para controlar os parâmetros da simulação, há 3 sliders para controlar os três atributos da classe Reverb.m.
 
 Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma simulação, o gráfico do arquivo é plotado.
 
