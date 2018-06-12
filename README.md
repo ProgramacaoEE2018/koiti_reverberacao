@@ -24,15 +24,17 @@ O fluxograma utilizado como base para a interface foi o seguinte:
 
 **INTERFACE VISUAL**
 
-![interface](interface.png)
+![interface](imagens/interface.png)
 
-A interface com 3 pushbuttons: 
+A interface com 4 pushbuttons: 
 
 (Procurar...) Para que o usuário insira o arquivo WAV em que deseja fazer a simulação.
 
 (Iniciar) Para que o usuário inicie a simulação.
 
-(Save) Para salvar o arquivo WAV recebido.
+(Save) Para salvar o arquivo WAV produzido.
+
+(Play) Para tocar o áudio produzido.
 
 Para controlar os parâmetros da simulação, há 3 sliders para controlar os três atributos da classe Reverb.m.
 
