@@ -36,6 +36,16 @@ Para controlar os parâmetros da simulação, há 3 sliders para controlar os tr
 
 Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma simulação, o gráfico do arquivo é plotado.
 
+**Instalação (AINDA NÃO ESTÁ PERFEITO)**
+
+Basta executar o arquivo MyAppInstaller_web.exe. (DÁ ERRO EM ALGUMAS MÁQUINAS)
+
+**Instalação alternativa**
+
+1. Baixar os arquivos da pasta for_testing;
+2. Instalar o MATLAB Runtime 9.0.1 (correspondente ao MATLAB 2016a) conforme é expLicado no arquivo readme.txt;
+3. Rodar o arquivo ReverberatorAlpha.exe.
+
 Fernando Koiti Tsurukawa
 
 Instituto Militar de Engenharia
