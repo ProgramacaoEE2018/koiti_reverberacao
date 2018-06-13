@@ -15,7 +15,19 @@ O resultado final do tutorial pode ser observado na imagem abaixo:
 
 Nessas imagens, pode-se observar o app do tutorial totalmente funcional, sendo inclusive possível usar as ferramentas Zoom in, Zoom Out, Pan, Rotate e Data Cursor.
 
-## FLUXOGRAMA (DESATUALIZADO)
+## FLUXOGRAMA
+
+## DIAGRAMA
+
+As classes e funções utilizadas (Reverb.m, hhreflect.m, Delay.m e get_prime.m) foram obtidas do seguinte [link](https://www.mathworks.com/help/coder/examples/reverberation-using-matlab-classes.html).
+
+A função responsável por manipular o input sonoro adicionando delays à entrada é a hhreflect, a qual recebe um vetor e retorna um vetor, cujo funcionamento é descrito pelo seguinte diagrama:
+
+![hhreflect](imagens/coderdemo_reverb_diagram.png)
+
+> The diagram shows only the first delay line. Imagine another seven delay lines being repeated in the diagram but each delay line has an individual delay and associated feedback gain block. The Householder reflection (i.e. hhreflect function) is essentially mixing/permuting the signals without changing the energy of the total signal. Therefore, we are essentially duplicating the incoming signal and feeding it back with small time displacements. The result is a reverberation effect.
+
+A classe Reverb recebe como input uma frequência de amostragem e possui como atributos Density,
 
 ## INTERFACE VISUAL
 
