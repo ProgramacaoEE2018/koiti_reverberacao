@@ -1,10 +1,9 @@
 # koiti_reverberacao
-
-**INTRODUÇÃO**
+## INTRODUÇÃO
 
 Esse projeto tem como objetivo simular o fenômeno da reverberação de um sinal acústico. Para isso, utilizaremos o MATLAB R2016a. O projeto, no entanto, não se aprofunda na teoria da acústica. Em vez disso, utilizaremos classes e funções prontas da Mathworks.
 
-**EXECUÇÃO DE TUTORIAL**
+## EXECUÇÃO DE TUTORIAL
 
 O tutorial realizado foi o seguinte: [https://www.mathworks.com/videos/creating-a-gui-with-guide-68979.html]
 
@@ -16,9 +15,9 @@ O resultado final do tutorial pode ser observado na imagem abaixo:
 
 Nessas imagens, pode-se observar o app do tutorial totalmente funcional, sendo inclusive possível usar as ferramentas Zoom in, Zoom Out, Pan, Rotate e Data Cursor.
 
-**FLUXOGRAMA (DESATUALIZADO)**
+## FLUXOGRAMA (DESATUALIZADO)
 
-**INTERFACE VISUAL**
+## INTERFACE VISUAL
 
 ![interface](imagens/interface.png)
 
@@ -35,11 +34,11 @@ Para controlar os parâmetros da simulação, há 3 sliders para controlar os tr
 
 Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma simulação, o gráfico do arquivo é plotado.
 
-**Instalação (AINDA NÃO ESTÁ PERFEITO)**
+## INSTALAÇÃO (AINDA NÃO ESTÁ PERFEITO)
 
 Basta executar o arquivo MyAppInstaller_web.exe. (DÁ ERRO EM ALGUMAS MÁQUINAS)
 
-**Instalação alternativa**
+## INSTALAÇÃO ALTERNATIVA
 
 1. Baixar os arquivos da pasta for_testing;
 2. Instalar o MATLAB Runtime 9.0.1 (correspondente ao MATLAB 2016a) conforme é expLicado no arquivo readme.txt;
