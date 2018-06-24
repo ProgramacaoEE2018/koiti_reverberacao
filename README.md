@@ -62,6 +62,9 @@ Basta executar o arquivo MyAppInstaller_web.exe. (DÁ ERRO EM ALGUMAS MÁQUINAS)
 2. Instalar o MATLAB Runtime 9.0.1 (correspondente ao MATLAB 2016a) conforme é explicado no arquivo readme.txt;
 3. Rodar o arquivo ReverberatorAlpha.exe.
 
+## POSSIBLE ISSUES
+* O programa não consegue encontrar arquivos WAV fora da pasta do programa, dando erro se o usuário escolher um arquivo fora dessa pasta.
+
 Fernando Koiti Tsurukawa\
 Instituto Militar de Engenharia\
 Eng. de Telecomunicações - 3º ano
