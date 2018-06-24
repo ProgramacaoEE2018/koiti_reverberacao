@@ -17,7 +17,11 @@ Nessas imagens, pode-se observar o app do tutorial totalmente funcional, sendo i
 
 ## FLUXOGRAMA
 
-## DIAGRAMA
+## DIAGRAMA DE CLASSES
+
+![class_diagram](imagens/class_diagram.png)
+
+## DIAGRAMA DA FUNCIONAMENTO
 
 As classes e funções utilizadas (Reverb.m, hhreflect.m, Delay.m e get_prime.m) foram obtidas do seguinte [link](https://www.mathworks.com/help/coder/examples/reverberation-using-matlab-classes.html).
 
@@ -50,10 +54,10 @@ Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma s
 
 Basta executar o arquivo MyAppInstaller_web.exe. (DÁ ERRO EM ALGUMAS MÁQUINAS)
 
-## INSTALAÇÃO ALTERNATIVA
+## INSTALAÇÃO ALTERNATIVA (ALPHA)
 
 1. Baixar os arquivos da pasta for_testing;
-2. Instalar o MATLAB Runtime 9.0.1 (correspondente ao MATLAB 2016a) conforme é expLicado no arquivo readme.txt;
+2. Instalar o MATLAB Runtime 9.0.1 (correspondente ao MATLAB 2016a) conforme é explicado no arquivo readme.txt;
 3. Rodar o arquivo ReverberatorAlpha.exe.
 
 Fernando Koiti Tsurukawa\
