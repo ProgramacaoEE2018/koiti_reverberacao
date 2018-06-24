@@ -17,6 +17,8 @@ Nessas imagens, pode-se observar o app do tutorial totalmente funcional, sendo i
 
 ## FLUXOGRAMA
 
+![fluxograma](imagens/fluxograma.png)
+
 ## DIAGRAMA DE CLASSES
 
 ![class_diagram](imagens/class_diagram.png)
