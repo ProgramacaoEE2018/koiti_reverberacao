@@ -52,15 +52,17 @@ Para controlar os parâmetros da simulação, há 3 sliders para controlar os tr
 
 Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma simulação, o gráfico do arquivo é plotado.
 
-## INSTALAÇÃO (AINDA NÃO ESTÁ PERFEITO)
+## INSTALAÇÃO
 
-Basta executar o arquivo MyAppInstaller_web.exe. (DÁ ERRO EM ALGUMAS MÁQUINAS)
+Basta executar o arquivo MyAppInstaller_mcr.exe e seguir as instruções do instalador.
 
-## INSTALAÇÃO ALTERNATIVA (ALPHA)
+O arquivo MyAppInstaller_mcr.exe se encontra na aba Releases. 
 
-1. Baixar os arquivos da pasta for_testing;
+## INSTALAÇÃO ALTERNATIVA
+
+1. Baixar os arquivos da pasta *for_testing*;
 2. Instalar o MATLAB Runtime 9.0.1 (correspondente ao MATLAB 2016a) conforme é explicado no arquivo readme.txt;
-3. Rodar o arquivo ReverberatorAlpha.exe.
+3. Rodar o arquivo Reverberator.exe.
 
 ## POSSIBLE ISSUES
 * O programa não consegue encontrar arquivos WAV fora da pasta do programa, dando erro se o usuário escolher um arquivo fora dessa pasta.
