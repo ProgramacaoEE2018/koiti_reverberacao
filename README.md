@@ -61,7 +61,13 @@ Basta seguir o seguinte passo-a-passo:
 1. Baixar a pasta *workspace*;
 2. Abrir o arquivo *ReverberacaoUI.m* utilizando *MATLAB r2016a* ou superior;
 3. Na janela de comandos, inserir o comando *deploytool*;
+
+![compilacao1](imagens/compilacao1.png)
+
 4. Selecionar Aplication Compiler;
+
+![compilacao2](imagens/compilacao2.png)
+
 5. Na nova janela do MATLAV Compiler, em *Add main file*, escolher o arquivo *ReverberacaoUI.m*;
 
 Agora, o MATLAB deve ter detectado automaticamente os outros arquivos necessários para a compilação.
