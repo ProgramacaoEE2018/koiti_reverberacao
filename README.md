@@ -52,6 +52,32 @@ Para controlar os parâmetros da simulação, há 3 sliders para controlar os tr
 
 Além disso, a cada vez que o usuário insere um arquivo sonoro ou realiza uma simulação, o gráfico do arquivo é plotado.
 
+## INSTRUÇÕES DE COMPILAÇÃO
+
+Os códigos necessários para a compilação estão na pasta *workspace*.
+
+Basta seguir o seguinte passo-a-passo:
+
+1. Baixar a pasta *workspace*;
+2. Abrir o arquivo *ReverberacaoUI.m* utilizando *MATLAB r2016a* ou superior;
+3. Na janela de comandos, inserir o comando *deploytool*;
+
+![compilacao1](imagens/compilacao1.png)
+
+4. Selecionar Aplication Compiler;
+
+![compilacao2](imagens/compilacao2.png)
+
+5. Na nova janela do MATLAV Compiler, em *Add main file*, escolher o arquivo *ReverberacaoUI.m*;
+
+Agora, o MATLAB deve ter detectado automaticamente os outros arquivos necessários para a compilação.
+
+6. (opcional) Preencher os campos para indicar o nome, autor, sumário e descrição do projeto;
+7. (opcional) Escolher entre "Runtime downloaded from web" e "Runtime included in package";
+8. Clicar em *Package Aplication* para iniciar a compilação;
+
+O arquivo executável gerado deve estar na pasta *workspace/nomedoprojeto/for_testing*.
+
 ## INSTALAÇÃO
 
 Basta executar o arquivo **MyAppInstaller_mcr.exe** e seguir as instruções do instalador.
